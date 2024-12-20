@@ -1,169 +1,158 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Process Improvement for Nonprofits and Family Doctors | Kobe Innovation</title>
-    <meta name="description" content="Kobe Innovation helps nonprofits and family doctors optimize workflows, reduce costs, and improve efficiency with Lean Six Sigma expertise.">
-    <link rel="canonical" href="https://kobeinnovation.ca">
+    <title>Kobe Innovation Company | Process Improvement Experts</title>
+    <meta name="description" content="Kobe Innovation Company helps nonprofits and clinics improve efficiency with Lean Six Sigma principles.">
     <style>
         /* General Styles */
-        body {
-            font-family: 'Roboto', Arial, sans-serif;
+        body, html {
             margin: 0;
             padding: 0;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f9f9f9;
+            font-family: 'Roboto', sans-serif;
+            scroll-behavior: smooth;
+            color: #fff;
+            overflow-x: hidden;
         }
         header {
-            background: #0056b3;
-            color: #fff;
-            padding: 2rem 1rem;
+            height: 100vh;
+            background: url('https://via.placeholder.com/1920x1080') center/cover no-repeat;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             text-align: center;
         }
         header h1 {
-            font-size: 2.5rem;
+            font-size: 3rem;
             margin: 0;
+            color: #ffd700;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
         }
         header p {
-            font-size: 1.2rem;
-            margin-top: 0.5rem;
+            font-size: 1.5rem;
+            margin: 1rem 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
         }
         nav {
-            background: #fff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
             padding: 1rem 0;
-            text-align: center;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
         }
         nav a {
-            color: #0056b3;
+            color: #ffd700;
             text-decoration: none;
-            font-size: 1rem;
-            margin: 0 1rem;
-            padding: 0.5rem 1rem;
-            border-radius: 5px;
-            transition: background-color 0.3s, color 0.3s;
+            font-size: 1.2rem;
+            font-weight: bold;
         }
         nav a:hover {
-            background: #0056b3;
             color: #fff;
         }
         section {
-            padding: 3rem 1rem;
-            max-width: 800px;
-            margin: 0 auto;
-            background: #fff;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-            margin-bottom: 2rem;
+            padding: 5rem 2rem;
+            text-align: center;
+            background: #333;
+            position: relative;
+        }
+        section:nth-child(even) {
+            background: #444;
         }
         section h2 {
-            font-size: 2rem;
-            color: #0056b3;
-            margin-bottom: 1rem;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: #ffd700;
         }
-        section ul {
-            padding-left: 1rem;
-            list-style: none;
+        section p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
         }
-        section ul li {
-            padding: 0.5rem 0;
-            border-bottom: 1px solid #f0f0f0;
-        }
-        .cta {
+        footer {
             text-align: center;
-            margin-top: 2rem;
+            padding: 2rem 1rem;
+            background: #222;
         }
-        .cta a {
-            background: #0056b3;
-            color: #fff;
-            padding: 0.7rem 1.5rem;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 1rem;
-            transition: background-color 0.3s;
+        footer p {
+            margin: 0;
+            color: #ffd700;
         }
-        .cta a:hover {
-            background: #004099;
-        }
+
+        /* Contact Form */
         form {
+            max-width: 600px;
+            margin: 2rem auto;
             display: flex;
             flex-direction: column;
             gap: 1rem;
         }
         form input, form textarea, form button {
-            padding: 0.8rem;
-            border: 1px solid #ddd;
+            padding: 1rem;
+            border: none;
             border-radius: 5px;
             font-size: 1rem;
         }
+        form input, form textarea {
+            background: #fff;
+            color: #333;
+        }
         form button {
-            background: #0056b3;
-            color: #fff;
-            border: none;
+            background: #ffd700;
+            color: #333;
+            font-weight: bold;
             cursor: pointer;
-            transition: background-color 0.3s;
         }
         form button:hover {
-            background: #004099;
+            background: #fff;
+            color: #333;
         }
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background: #0056b3;
-            color: #fff;
-            margin-top: 2rem;
+
+        /* Parallax Scrolling */
+        .parallax {
+            height: 60vh;
+            background: url('https://via.placeholder.com/1920x1080') center/cover no-repeat fixed;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Kobe Innovation Company</h1>
-        <p>Helping nonprofits and family doctors work smarter, not harder.</p>
-    </header>
     <nav>
-        <a href="#about">About Us</a>
+        <a href="#about">About</a>
         <a href="#services">Services</a>
         <a href="#contact">Contact</a>
     </nav>
+    <header>
+        <h1>Kobe Innovation Company</h1>
+        <p>Streamline. Simplify. Succeed.</p>
+    </header>
+    <div class="parallax"></div>
     <section id="about">
         <h2>About Us</h2>
-        <p>Kobe Innovation Company specializes in process improvement and operational efficiency. Using Lean Six Sigma principles, we help nonprofits and family doctors streamline workflows, reduce costs, and improve outcomes—all while enabling you to focus on your mission or patients.</p>
-        <p><strong>Based in Winnipeg, Canada</strong>, we are proud to support local and national organizations with tailored solutions to meet their unique challenges.</p>
+        <p>Kobe Innovation Company specializes in Lean and Continuous Improvement principles to help nonprofits and clinics achieve greater efficiency and better outcomes.</p>
     </section>
+    <div class="parallax"></div>
     <section id="services">
         <h2>Our Services</h2>
-        <h3>For Nonprofits</h3>
-        <ul>
-            <li>Donation Processing Optimization</li>
-            <li>Volunteer Coordination Improvements</li>
-            <li>Resource Allocation Analysis</li>
-            <li>Custom Training Workshops for Staff</li>
-        </ul>
-        <h3>For Family Doctors</h3>
-        <ul>
-            <li>Patient Flow Optimization</li>
-            <li>Staff Scheduling Redesign</li>
-            <li>Billing and Documentation Streamlining</li>
-            <li>On-site or Virtual Efficiency Audits</li>
-        </ul>
+        <p>We offer process optimization, team training, and workflow redesign to reduce costs and improve results.</p>
     </section>
+    <div class="parallax"></div>
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>Let’s start improving your processes today.</p>
-        <p><strong>Email:</strong> info@kobeinnovation.ca</p>
-        <p><strong>Phone:</strong> +1-204-333-2308</p>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" rows="5" required></textarea>
-            <button type="submit">Submit</button>
+        <p>Have questions? Reach out to us!</p>
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
         </form>
     </section>
     <footer>
-        <p>&copy; 2024 Kobe Innovation Company | <a href="https://kobeinnovation.ca" style="color: #fff; text-decoration: underline;">Visit Us Online</a></p>
+        <p>&copy; 2024 Kobe Innovation Company</p>
     </footer>
 </body>
 </html>
