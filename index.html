@@ -7,13 +7,18 @@
     <meta name="description" content="Kobe Innovation Company specializes in Lean Six Sigma and Continuous Improvement for nonprofits and clinics, helping solve operational challenges to achieve better outcomes.">
     <meta name="keywords" content="Lean Six Sigma, Continuous Improvement, nonprofit solutions, clinic optimization, operational efficiency, Kobe Innovation Company">
     <link rel="stylesheet" href="styles.css">
+    <!-- Schema.org markup for Google+ -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Kobe Innovation Company",
       "url": "http://www.kobeinnovation.ca",
-      "logo": "path/to/logo.png",
+      "logo": "path/to/your/logo.png",
+      "sameAs": [
+        "https://www.facebook.com/yourpage",
+        "https://twitter.com/yourtwitter"
+      ],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "123 Example Street",
@@ -24,193 +29,111 @@
       }
     }
     </script>
-    <style>
-        /* General Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f9f9f9;
-            color: #333;
-            line-height: 1.6;
-        }
-        header {
-            background: linear-gradient(135deg, #0056b3, #003a7d);
-            color: white;
-            text-align: center;
-            padding: 4rem 2rem;
-            position: relative;
-        }
-        header img {
-            width: 80px;
-            margin-bottom: 1rem;
-        }
-        header h1 {
-            font-size: 2.8rem;
-        }
-        header p {
-            font-size: 1.2rem;
-            margin-top: 0.5rem;
-        }
-        nav {
-            position: sticky;
-            top: 0;
-            background: white;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            padding: 1rem 0;
-            text-align: center;
-            z-index: 1000;
-        }
-        nav a {
-            text-decoration: none;
-            color: #0056b3;
-            margin: 0 1rem;
-            font-size: 1rem;
-            padding: 0.5rem 1rem;
-        }
-        nav a:hover {
-            background: #0056b3;
-            color: white;
-            border-radius: 5px;
-        }
-        section {
-            max-width: 900px;
-            margin: 2rem auto;
-            padding: 2rem;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        section h2 {
-            color: #0056b3;
-            font-size: 2rem;
-            margin-bottom: 1rem;
-        }
-        section h3 {
-            font-size: 1.5rem;
-            color: #003a7d;
-            margin-top: 1.5rem;
-        }
-        section p, ul {
-            margin-bottom: 1rem;
-            line-height: 1.8;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        ul li {
-            margin-bottom: 0.5rem;
-            display: flex;
-            align-items: center;
-        }
-        ul li::before {
-            content: "✓";
-            color: #0056b3;
-            margin-right: 0.5rem;
-        }
-        footer {
-            text-align: center;
-            padding: 1.5rem;
-            background: #0056b3;
-            color: white;
-            margin-top: 2rem;
-        }
-        footer a {
-            color: #ffd700;
-            text-decoration: none;
-        }
-        .button {
-            display: inline-block;
-            background: #0056b3;
-            color: white;
-            padding: 0.8rem 1.5rem;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background 0.3s ease;
-        }
-        .button:hover {
-            background: #003a7d;
-        }
-    </style>
 </head>
 <body>
-    <!-- Header -->
     <header>
-        <img src="path/to/logo.png" alt="Kobe Innovation Logo">
+        <div class="logo">
+            <img src="path/to/your/logo.png" alt="Kobe Innovation Company Logo" width="100" height="100">
+        </div>
         <h1>Kobe Innovation Company</h1>
-        <p>Helping nonprofits and clinics achieve operational excellence.</p>
-        <a href="#contact" class="button">Get Started Today</a>
+        <p>Empowering nonprofits and clinics to achieve operational excellence with Lean Six Sigma and Continuous Improvement principles.</p>
     </header>
 
     <!-- Navigation -->
+    <button class="menu-toggle" aria-label="Toggle Navigation Menu" onclick="toggleMenu()">Menu</button>
     <nav>
         <a href="#about">About Us</a>
         <a href="#services">Services</a>
         <a href="#why">Why Choose Us</a>
         <a href="#process">Our Process</a>
-        <a href="#contact">Contact</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#blog">Blog</a>
     </nav>
 
-    <!-- About Us -->
     <section id="about">
         <h2>About Us</h2>
-        <p>Kobe Innovation Company, based in Winnipeg, specializes in Lean Six Sigma and Continuous Improvement, empowering nonprofits and clinics to achieve measurable results.</p>
-        <p>We address unique challenges like limited resources, high accountability, and operational inefficiencies with tailored solutions to maximize your mission’s impact.</p>
+        <p><strong>Kobe Innovation Company</strong>, based in Winnipeg, Canada, specializes in Lean Six Sigma and Continuous Improvement. We focus on helping nonprofits and clinics optimize workflows, cut costs, and achieve measurable results.</p>
+        <p>We understand that nonprofits and clinics face unique challenges: limited resources, high accountability, and the constant need to do more with less. Our tailored solutions ensure you maximize your impact without unnecessary strain on your team or budget.</p>
     </section>
 
-    <!-- Services -->
     <section id="services">
         <h2>Our Services</h2>
-        <h3>Nonprofits</h3>
+        <h3>For Nonprofits</h3>
+        <p>Nonprofits often struggle with limited funding and resources, which makes efficiency critical. We provide solutions that help you focus on your mission:</p>
         <ul>
-            <li><strong>Donation Processing:</strong> Faster, error-free donation workflows.</li>
-            <li><strong>Volunteer Coordination:</strong> Retain and engage enthusiastic volunteers.</li>
-            <li><strong>Resource Optimization:</strong> Maximize every dollar.</li>
+            <li><strong>Donation Processing Optimization:</strong> Streamline donation workflows for faster, error-free processing.</li>
+            <li><strong>Volunteer Coordination:</strong> Improve volunteer scheduling and engagement to avoid burnout and inefficiencies.</li>
+            <li><strong>Resource Allocation:</strong> Maximize every dollar and resource through actionable analysis.</li>
         </ul>
-        <h3>Clinics</h3>
+        <h3>For Clinics</h3>
+        <p>Clinics operate in fast-paced environments where time and efficiency are everything. We help you improve patient care and reduce staff stress:</p>
         <ul>
-            <li><strong>Patient Flow Optimization:</strong> Shorter wait times, better satisfaction.</li>
-            <li><strong>Staff Scheduling:</strong> Balanced workloads to reduce burnout.</li>
-            <li><strong>Billing:</strong> Faster, error-free cash flow.</li>
+            <li><strong>Patient Flow Optimization:</strong> Reduce wait times and improve patient satisfaction.</li>
+            <li><strong>Staff Scheduling Redesign:</strong> Balance workloads to improve staff morale and retention.</li>
+            <li><strong>Billing Streamlining:</strong> Ensure faster, error-free billing and documentation for smoother cash flow.</li>
         </ul>
     </section>
 
-    <!-- Why Choose Us -->
     <section id="why">
         <h2>Why Choose Us</h2>
+        <p>We provide solutions that are:</p>
         <ul>
-            <li><strong>Tailored Solutions:</strong> No cookie-cutter strategies here.</li>
-            <li><strong>Proven Expertise:</strong> Lean Six Sigma-certified results.</li>
-            <li><strong>Empowering Teams:</strong> Build lasting success internally.</li>
+            <li><strong>Tailored:</strong> Custom strategies for nonprofits and clinics—no cookie-cutter solutions.</li>
+            <li><strong>Proven:</strong> Years of expertise in Lean Six Sigma and Continuous Improvement.</li>
+            <li><strong>Empowering:</strong> We equip your team to sustain improvements independently.</li>
+        </ul>
+        <div class="testimonials">
+            <h3>What Our Clients Say</h3>
+            <blockquote>
+                "Kobe Innovation transformed our donation process, making it more efficient and secure." - Jane Doe, Charity Manager
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="process">
+        <h2>Our Process</h2>
+        <ul>
+            <li><strong>Discovery:</strong> In-depth consultation to understand your challenges and goals.</li>
+            <li><strong>Analysis:</strong> Identify inefficiencies using proven methodologies.</li>
+            <li><strong>Implementation:</strong> Hands-on support to execute tailored solutions.</li>
+            <li><strong>Follow-Up:</strong> Ensure sustainable success with post-implementation reviews.</li>
         </ul>
     </section>
 
-    <!-- Process -->
-    <section id="process">
-        <h2>Our Process</h2>
-        <ol>
-            <li><strong>Discovery:</strong> Understand your unique needs.</li>
-            <li><strong>Analysis:</strong> Identify and prioritize inefficiencies.</li>
-            <li><strong>Implementation:</strong> Hands-on solution execution.</li>
-            <li><strong>Follow-Up:</strong> Ensure long-term improvements.</li>
-        </ol>
+    <section id="blog">
+        <h2>Latest from Our Blog</h2>
+        <article>
+            <h3>Case Study: Streamlining Clinic Operations</h3>
+            <p>Discover how we reduced wait times by 40% at a local clinic using Lean Six Sigma methodologies.</p>
+            <a href="blog-post-url.html" class="cta">Read More</a>
+        </article>
     </section>
 
-    <!-- Contact -->
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>Email: <a href="mailto:info@kobeinnovation.ca">info@kobeinnovation.ca</a></p>
-        <p>Phone: +1-204-333-2308</p>
-        <a href="mailto:info@kobeinnovation.ca" class="button">Contact Us Today</a>
+        <form action="submit-form-url" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p><strong>Email:</strong> <a href="mailto:info@kobeinnovation.ca">info@kobeinnovation.ca</a></p>
+        <p><strong>Phone:</strong> +1-204-333-2308</p>
+        <p>Let’s discuss how we can help your organization achieve more.</p>
     </section>
 
-    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Kobe Innovation Company | All rights reserved.</p>
+        <p>© 2024 Kobe Innovation Company. All rights reserved. | <a href="mailto:info@kobeinnovation.ca">Contact Us</a></p>
     </footer>
+
+    <script>
+        function toggleMenu() {
+            let nav = document.querySelector('nav');
+            nav.classList.toggle('mobile-open');
+        }
+    </script>
 </body>
 </html>
