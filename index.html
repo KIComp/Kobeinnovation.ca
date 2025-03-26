@@ -1,227 +1,261 @@
-​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kobe Innovation - AI Agency</title>
+    <title>Kobe Innovation Company - Premium Canadian Saffron</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #333333;
+            background-color: #FFFFFF;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Header */
+        header {
+            background-color: #D4AF37; /* Gold */
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo img {
+            height: 50px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav li {
+            margin: 0 15px;
+        }
+        nav a {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #4CAF50; /* Green */
+        }
+
+        /* Hero Section */
+        #hero {
+            background-image: url('hero-image.jpg'); /* Replace with actual image */
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero-content {
+            background: rgba(0,0,0,0.5);
+            padding: 30px;
+            color: #FFFFFF;
+        }
+        .hero-content h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .hero-content p {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+        .btn {
+            background-color: #4CAF50; /* Green */
+            color: #FFFFFF;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        /* Sections */
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        section:nth-child(even) {
+            background-color: #F5F5F5; /* Light gray for alternating sections */
+        }
+        h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #D4AF37; /* Gold */
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            transition: transform 0.3s ease;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Product Images */
+        .product-images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .product-images img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        /* Contact Form */
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+        input, textarea {
+            width: 300px;
+            padding: 10px;
+            border: 1px solid #CCCCCC;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50; /* Green */
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333333;
+            color: #FFFFFF;
+            padding: 20px;
+            text-align: center;
+        }
+        .social-links img {
+            width: 30px;
+            margin: 0 10px;
+        }
+    </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#blog">Blog</a></li>
-        </ul>
-    </nav>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Kobe Innovation Company Logo"> <!-- Replace with actual logo -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#saffron">Our Saffron</a></li>
+                <li><a href="#grow">How We Grow</a></li>
+                <li><a href="#markets">Our Markets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <hr>
-
-    <!-- Home Section -->
-    <section id="home">
-        <h1>Welcome to Kobe Innovation</h1>
-        <p><strong>Transform Your Business with AI Innovation</strong></p>
-        <p>Kobe Innovation is your trusted AI agency, serving Manitoba, Saskatchewan, Alberta, Quebec, and New Brunswick with advanced solutions like AI integration, website optimization, and AI agents. Discover how we can elevate your business in today’s digital world.</p>
-        <h2>Our Services</h2>
-        <ul>
-            <li><strong>AI Integration</strong>: Streamline operations with AI.</li>
-            <li><strong>Website Optimization</strong>: Boost your online performance.</li>
-            <li><strong>AI Agents</strong>: Automate and engage with intelligent agents.</li>
-        </ul>
-        <h2>Serving Your Region</h2>
-        <p>At Kobe Innovation, we’re proud to serve businesses in <strong>Manitoba, Saskatchewan, Alberta, Quebec, and New Brunswick</strong>, delivering tailored AI solutions that address regional needs and opportunities.</p>
-        <h2>Testimonials</h2>
-        <blockquote>“Kobe Innovation doubled our efficiency with AI!” – Alberta Client</blockquote>
-        <p><a href="#contact">Contact Us Today</a></p>
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Premium Canadian Saffron</h1>
+            <p>Innovative Indoor Farming for Superior Quality</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
     </section>
 
-    <hr>
-
-    <!-- Services Section -->
-    <section id="services">
-        <h1>Our Services</h1>
-        <article>
-            <h2>AI Integration</h2>
-            <p>Transform your business with the power of artificial intelligence. At Kobe Innovation, we specialize in <strong>AI integration</strong>, seamlessly embedding cutting-edge AI technologies into your existing systems to boost efficiency, innovation, and profitability. Serving businesses in Manitoba, Saskatchewan, Alberta, Quebec, and New Brunswick, we tailor our solutions to meet your unique needs.</p>
-            <h3>What is AI Integration?</h3>
-            <p>AI integration means incorporating artificial intelligence into your workflows, applications, and processes. Whether it’s automating repetitive tasks, enhancing data analysis with machine learning, or deploying predictive analytics, our experts ensure a smooth transition to AI-powered operations.</p>
-            <h3>Benefits of AI Integration</h3>
-            <ul>
-                <li><strong>Efficiency Gains</strong>: Automate mundane tasks to free up your team for strategic work.</li>
-                <li><strong>Smarter Decisions</strong>: Use AI-driven insights for faster, data-backed decision-making.</li>
-                <li><strong>Cost Reduction</strong>: Optimize resources and cut operational expenses.</li>
-                <li><strong>Better Customer Experiences</strong>: Deliver personalized, responsive services.</li>
-                <li><strong>Scalability</strong>: Grow effortlessly with AI solutions that adapt to your needs.</li>
-            </ul>
-            <h3>Our Process</h3>
-            <ol>
-                <li><strong>Assessment</strong>: We analyze your systems to pinpoint AI opportunities.</li>
-                <li><strong>Strategy</strong>: We craft a custom AI integration plan aligned with your goals.</li>
-                <li><strong>Implementation</strong>: Our team integrates AI with minimal disruption.</li>
-                <li><strong>Training</strong>: We equip your staff to use and maintain AI tools.</li>
-                <li><strong>Support</strong>: Ongoing optimization ensures long-term success.</li>
-            </ol>
-            <h3>Examples of Success</h3>
-            <ul>
-                <li>A Manitoba retailer reduced inventory costs by 20% with AI-driven stock management.</li>
-                <li>An Alberta energy firm improved equipment uptime with predictive maintenance.</li>
-                <li>A Quebec healthcare provider enhanced patient care with AI diagnostics.</li>
-            </ul>
-            <p>Ready to integrate AI into your business? <a href="#contact">Contact us today</a> to explore how we can help companies in Manitoba, Saskatchewan, Alberta, Quebec, and New Brunswick thrive with AI.</p>
-        </article>
-        <hr>
-        <article>
-            <h2>Website Optimization</h2>
-            <p>Maximize your online presence with <strong>AI-powered website optimization</strong>. Kobe Innovation uses artificial intelligence to enhance your website’s performance, user experience, and search engine rankings, delivering measurable results for businesses across Manitoba, Saskatchewan, Alberta, Quebec, and New Brunswick.</p>
-            <h3>What is Website Optimization?</h3>
-            <p>Website optimization leverages AI to analyze user behavior, personalize content, improve site speed, and boost SEO. From increasing conversions to ensuring your site ranks high on Google, our services make your digital storefront a powerful asset.</p>
-            <h3>Benefits of Website Optimization</h3>
-            <ul>
-                <li><strong>Improved User Experience</strong>: Keep visitors engaged with personalized, fast-loading pages.</li>
-                <li><strong>Higher Search Rankings</strong>: Rank better for keywords like “website optimization in Alberta” or “SEO services in Quebec.”</li>
-                <li><strong>Increased Conversions</strong>: Turn visitors into customers with AI-driven insights.</li>
-                <li><strong>Cost Efficiency</strong>: Automate maintenance and reduce upkeep costs.</li>
-                <li><strong>Competitive Edge</strong>: Stand out in your industry with a top-performing site.</li>
-            </ul>
-            <h3>Our Approach</h3>
-            <ol>
-                <li><strong>Analysis</strong>: AI tools assess your website’s performance and user data.</li>
-                <li><strong>Personalization</strong>: We tailor content to your audience’s preferences.</li>
-                <li><strong>SEO Enhancement</strong>: Optimize for search engines with targeted keywords.</li>
-                <li><strong>Performance Boost</strong>: Improve speed and responsiveness.</li>
-                <li><strong>Automation</strong>: Streamline updates and maintenance tasks.</li>
-            </ol>
-            <h3>Success Stories</h3>
-            <ul>
-                <li>A Saskatchewan e-commerce site saw a 25% traffic increase after AI-driven SEO.</li>
-                <li>A New Brunswick startup doubled conversions with personalized content.</li>
-                <li>A Quebec business improved mobile performance, reducing bounce rates by 15%.</li>
-            </ul>
-            <p>Elevate your website today. <a href="#contact">Contact us</a> to optimize your online presence for clients in Manitoba, Saskatchewan, Alberta, Quebec, and New Brunswick.</p>
-        </article>
-        <hr>
-        <article>
-            <h2>AI Agents</h2>
-            <p>Empower your business with intelligent <strong>AI agents</strong>. Kobe Innovation designs and deploys custom AI solutions like chatbots and virtual assistants to automate tasks, enhance customer service, and streamline operations for companies in Manitoba, Saskatchewan, Alberta, Quebec, and New Brunswick.</p>
-            <h3>What are AI Agents?</h3>
-            <p>AI agents are autonomous programs powered by artificial intelligence, capable of interacting with users, collecting data, or performing tasks. From customer support chatbots to virtual assistants, we create agents that work for you 24/7.</p>
-            <h3>Benefits of AI Agents</h3>
-            <ul>
-                <li><strong>Round-the-Clock Service</strong>: Offer instant support anytime, anywhere.</li>
-                <li><strong>Cost Savings</strong>: Reduce staffing needs with automated solutions.</li>
-                <li><strong>Enhanced Engagement</strong>: Provide fast, personalized responses to inquiries.</li>
-                <li><strong>Data Insights</strong>: Gather valuable analytics from user interactions.</li>
-                <li><strong>Versatility</strong>: Integrate agents into websites, apps, or internal systems.</li>
-            </ul>
-            <h3>Our Services</h3>
-            <ol>
-                <li><strong>Chatbot Development</strong>: Build conversational AI for customer support or sales.</li>
-                <li><strong>Virtual Assistants</strong>: Create agents for scheduling, data entry, or more.</li>
-                <li><strong>Integration</strong>: Connect agents to your existing platforms.</li>
-                <li><strong>Customization</strong>: Tailor agents to reflect your brand and goals.</li>
-            </ol>
-            <h3>Real-World Impact</h3>
-            <ul>
-                <li>A Manitoba firm cut response times by 40% with an AI chatbot.</li>
-                <li>An Alberta logistics company automated tracking with a virtual assistant.</li>
-                <li>A New Brunswick retailer boosted sales with an AI-powered shopping agent.</li>
-            </ul>
-            <p>Discover how AI agents can transform your operations. <a href="#contact">Reach out</a> to see how we serve businesses in Manitoba, Saskatchewan, Alberta, Quebec, and New Brunswick.</p>
-        </article>
-        <hr>
-        <article>
-            <h2>Other Related Services</h2>
-            <p>Beyond our core offerings, Kobe Innovation provides a range of <strong>related AI services</strong> to support your business’s growth in Manitoba, Saskatchewan, Alberta, Quebec, and New Brunswick. Explore how we can address your unique challenges with expert solutions.</p>
-            <h3>Our Additional Services</h3>
-            <ul>
-                <li><strong>AI Consulting</strong>: Get strategic advice on adopting AI technologies effectively.
-                    <ul>
-                        <li><em>Why It Matters</em>: Align AI with your business objectives for maximum ROI.</li>
-                    </ul>
-                </li>
-                <li><strong>Data Science Services</strong>: Unlock insights with advanced analytics and machine learning.
-                    <ul>
-                        <li><em>Why It Matters</em>: Turn raw data into actionable strategies.</li>
-                    </ul>
-                </li>
-                <li><strong>AI Training & Workshops</strong>: Upskill your team with hands-on AI education.
-                    <ul>
-                        <li><em>Why It Matters</em>: Empower your staff to leverage AI confidently.</li>
-                    </ul>
-                </li>
-            </ul>
-            <p>Need a custom AI solution? <a href="#contact">Contact us</a> to discuss how we can support your business in Manitoba, Saskatchewan, Alberta, Quebec, and New Brunswick with these innovative services.</p>
-        </article>
-    </section>
-
-    <hr>
-
-    <!-- About Us Section -->
     <section id="about">
-        <h1>About Us</h1>
-        <p>We’re a forward-thinking AI agency dedicated to helping businesses in Manitoba, Saskatchewan, Alberta, Quebec, and New Brunswick succeed with artificial intelligence. Our mission is to make AI accessible, practical, and transformative.</p>
-        <h2>Our Vision</h2>
-        <p>Lead the AI revolution in Canada.</p>
-        <h2>Our Team</h2>
-        <p>Experts in AI, data science, and digital strategy.</p>
-        <h2>Our Values</h2>
-        <p>Innovation, integrity, and client success.</p>
+        <h2>About Kobe Innovation Company</h2>
+        <p>Kobe Innovation Company is a pioneering indoor farming venture dedicated to cultivating premium-grade saffron. Using advanced multilayer vertical farming techniques, we optimize space and achieve multiple harvests per year. Our mission is to become a leading Canadian producer of high-quality saffron, supplying wholesalers, the beauty industry, and large manufacturers with a consistent, locally grown product. We envision becoming a trusted name in agriculture, recognized for our superior quality and innovative methods.</p>
+        <img src="farm-image.jpg" alt="Indoor Saffron Farm"> <!-- Replace with actual image -->
     </section>
 
-    <hr>
+    <section id="saffron">
+        <h2>Our Saffron</h2>
+        <p>Our saffron is grown in a state-of-the-art indoor facility, ensuring consistent quality and purity. Hand-harvested and carefully dried, it retains its rich flavor, aroma, and vibrant color. Ideal for culinary uses, cosmetic formulations, and pharmaceutical applications, our saffron meets the highest standards of excellence.</p>
+        <div class="product-images">
+            <img src="saffron1.jpg" alt="Saffron Threads"> <!-- Replace with actual image -->
+            <img src="saffron2.jpg" alt="Saffron in Packaging"> <!-- Replace with actual image -->
+        </div>
+    </section>
 
-    <!-- Contact Section -->
+    <section id="grow">
+        <h2>How We Grow</h2>
+        <p>We employ cutting-edge techniques to cultivate saffron indoors:</p>
+        <ul>
+            <li><strong>Controlled Environment:</strong> Precise management of temperature, light, and humidity to induce multiple flowering cycles.</li>
+            <li><strong>Batch Management:</strong> Staggered planting for continuous production.</li>
+            <li><strong>Vertical Farming:</strong> Multilayer racks maximize space and efficiency.</li>
+        </ul>
+        <img src="vertical-farm.jpg" alt="Vertical Farming Setup"> <!-- Replace with actual image -->
+    </section>
+
+    <section id="markets">
+        <h2>Our Markets</h2>
+        <p>We serve B2B clients in the following sectors:</p>
+        <ul>
+            <li><strong>Wholesalers:</strong> Bulk distributors seeking premium saffron for resale.</li>
+            <li><strong>Beauty Industry:</strong> Manufacturers of saffron-infused skincare products.</li>
+            <li><strong>Large Manufacturers:</strong> Food and beverage companies incorporating saffron into their offerings.</li>
+        </ul>
+        <p>Our competitive advantages include local production, consistent quality, and the ability to deliver multiple harvests per year.</p>
+    </section>
+
     <section id="contact">
-        <h1>Contact Us</h1>
-        <p>Ready to explore AI for your business? Reach out today!</p>
-        <form action="#" method="post">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message"></textarea><br>
-            <input type="submit" value="Send">
+        <h2>Contact Us</h2>
+        <p>For inquiries or to place an order, please fill out the form below or contact us directly:</p>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
         </form>
-        <p>Phone: 1-800-AI-KOBE</p>
-        <p>Email: info@kobeinnovation.ca</p>
-        <p>Social Media: <a href="#">LinkedIn</a> <a href="#">Twitter</a></p>
+        <div class="contact-info">
+            <p>Address: [Address Line], [Province], [Postal Code]</p>
+            <p>Phone: [Phone Number]</p>
+            <p>Email: [Email Address]</p>
+        </div>
     </section>
 
-    <hr>
-
-    <!-- Blog/Resources Section -->
-    <section id="blog">
-        <h1>Blog & Resources</h1>
-        <article>
-            <h2>How AI Integration is Revolutionizing Manitoba Businesses</h2>
-            <p>Discover how companies in Manitoba are leveraging AI to streamline operations and boost profits.</p>
-            <p><a href="#">Read More</a></p>
-        </article>
-        <article>
-            <h2>Website Optimization Tips for Saskatchewan Companies</h2>
-            <p>Learn how to enhance your website's performance and user experience with AI-driven insights.</p>
-            <p><a href="#">Read More</a></p>
-        </article>
-        <article>
-            <h2>AI Agents: Transforming Customer Service in Alberta</h2>
-            <p>Learn how Alberta businesses are using AI agents to provide exceptional customer service.</p>
-            <p><a href="#">Read More</a></p>
-        </article>
-        <article>
-            <h2>Quebec’s Bilingual Advantage with AI Solutions</h2>
-            <p>Explore how AI can help Quebec companies engage with both French and English-speaking customers.</p>
-            <p><a href="#">Read More</a></p>
-        </article>
-        <article>
-            <h2>Growing New Brunswick Startups with AI Technology</h2>
-            <p>See how startups in New Brunswick are leveraging AI to scale and innovate.</p>
-            <p><a href="#">Read More</a></p>
-        </article>
-    </section>
-
+    <footer>
+        <p>&copy; 2023 Kobe Innovation Company. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#"><img src="facebook.png" alt="Facebook"></a> <!-- Replace with actual icon -->
+            <a href="#"><img src="twitter.png" alt="Twitter"></a> <!-- Replace with actual icon -->
+            <a href="#"><img src="linkedin.png" alt="LinkedIn"></a> <!-- Replace with actual icon -->
+        </div>
+    </footer>
 </body>
 </html>
-​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
